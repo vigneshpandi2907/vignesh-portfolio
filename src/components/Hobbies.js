@@ -11,7 +11,7 @@ const Hobbies = (props) => {
         <p className="pb-5 pl-5 text-xl font-bold text-myColor">Hobbies</p>
         <div className="grid w-full h-full grid-cols-1 xl:grid-cols-2 ">
           <div className="flex items-center justify-center mb-5 delay-75 xl:mb-0 hover:scale-100 animate-wiggle ">
-            <div className="flex w-9/12 border-2 rounded-xl">
+            <div className="flex-none w-9/12 border-2 sm:flex rounded-xl ">
               <img
                 src={drawing}
                 alt="cook"
