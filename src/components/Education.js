@@ -5,7 +5,7 @@ const Education = (props) => {
   return (
     <div
       name="education"
-      className="flex items-center justify-center w-full h-full py-3 pt-60 sm:pt-14 smallMedium:5 bg-gradient-to-b from-white via-gray to-gray-400"
+      className="flex items-center justify-center w-full h-full py-3 pt-96 sm:pt-14 smallMedium:5 bg-gradient-to-b from-white via-gray to-gray-400"
     >
       <div className="w-11/12">
         <div>
