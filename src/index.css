@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "PrincessSofia-Regular";
+    src: url(../src/fonts/PrincessSofia-Regular.ttf);
+  }
+  @font-face {
+    font-family: "AbrilFatface-Regular";
+    src: url(../src/fonts/AbrilFatface-Regular.ttf);
+  }
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+}
