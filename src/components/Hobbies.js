@@ -30,7 +30,7 @@ const Hobbies = (props) => {
             </div>
           </div>
           <div className="flex items-center justify-center animate-wiggle ">
-            <div className="flex w-9/12 border-2 rounded-xl">
+            <div className="flex-none w-9/12 border-2 sm:flex rounded-xl ">
               <img
                 src={cooking}
                 alt="cook"
