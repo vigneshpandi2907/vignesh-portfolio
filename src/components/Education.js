@@ -13,7 +13,7 @@ const Education = (props) => {
           <div className="grid grid-cols-1 sm:grid-cols-2">
             <div className="py-3">
               <p>2018</p>
-              <p className="text-xl font-semibold">B.TECH - IT</p>
+              <p className="text-xl font-semibold">HSC</p>
 
               <p>Nadar Saraswathi Higher secondary School, Theni.</p>
             </div>
