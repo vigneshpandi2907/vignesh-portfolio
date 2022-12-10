@@ -4,7 +4,7 @@ const About = (props) => {
   return (
     <div
       name="about"
-      className="grid grid-cols-1 mt-32 mr-8 md:grid-cols-3 h-96 border-3 md:mt-48"
+      className="grid grid-cols-1 mt-32 mr-8 md:grid-cols-3 h-96 border-3 md:mt-48 "
     >
       <div className="hidden w-full lg:block">
         <div className="">
