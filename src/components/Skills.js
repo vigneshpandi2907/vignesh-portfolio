@@ -69,50 +69,6 @@ const Skills = (props) => {
     },
   ];
   return (
-    // <div className="relative w-96 h-96 transform-gpu animate-waving-hand">
-    //   <span className="">
-    //     <img src={angular} alt="Vignesh" />
-    //     <img src={img2} alt="Vignesh" />
-    //     <img src={img3} alt="Vignesh" />
-    //     <img src={img4} alt="Vignesh" />
-    //     <img src={img5} alt="Vignesh" />
-    //   </span>
-    // </div>
-
-    // <div className="relative grid items-center m-auto h-max ">
-    //   <div className="flex ">
-    //     <div className="flex items-center m-2 border-2 border-red-500 w-72 h-96 ">
-    //       <img className="w-full h-3/5" src={angular} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img2} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img3} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img4} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img5} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img6} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={angular} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img2} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img3} alt="Vignesh" />
-    //     </div>
-    //     <div className="flex items-center w-64 m-2 border-2 border-red-500 h-96">
-    //       <img className="w-full h-3/5" src={img4} alt="Vignesh" />
-    //     </div>
-    //   </div>
-    // </div>
     // bg-gradient-to-b from-white via-gray to-black
     <div
       name="skills"
@@ -120,18 +76,18 @@ const Skills = (props) => {
     >
       <div className="w-11/12">
         <h2 className="ml-4 font-bold text-myColor">Skills</h2>
-        <div className="grid justify-center w-full grid-cols-2 gap-6 py-8 mt-5 ml-5 smallMedium:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:px-0">
+        <div className="grid justify-center w-full grid-cols-3 gap-6 py-8 mt-5 ml-5 xsm:grid-cols-4 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 sm:px-0">
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className="duration-500 w-36 rounded-2xl hover:-translate-y-3 hover:delay-100 bg-myColor md:w-48 "
+              className="w-20 duration-500 rounded-2xl hover:-translate-y-3 hover:delay-100 bg-myColor sm:w-32 "
             >
               <img
                 src={skill.src}
                 alt=" "
-                className="mx-auto h-36 md:h-44 rounded-tr-2xl w-60 rounded-tl-2xl"
+                className="w-20 h-16 mx-auto sm:h-32 sm:w-32 rounded-tr-2xl rounded-tl-2xl"
               />
-              <p className="pb-3 mt-4 text-xl font-bold text-center text-white">
+              <p className="pb-3 mt-4 text-sm font-bold text-center text-white sm:text-xl">
                 {skill.title}
               </p>
             </div>
