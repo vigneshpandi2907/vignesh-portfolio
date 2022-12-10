@@ -72,7 +72,7 @@ const Skills = (props) => {
     // bg-gradient-to-b from-white via-gray to-black
     <div
       name="skills"
-      className="flex items-center justify-center w-full h-full smallMedium:pt-2 bg-gradient-to-b from-slate-500 via-slate-400 to-white"
+      className="flex items-center justify-center w-full h-full smallMedium:pt-2 pt-5 bg-slate-600"
     >
       <div className="w-11/12">
         <h2 className="ml-4 font-bold text-myColor">Skills</h2>
