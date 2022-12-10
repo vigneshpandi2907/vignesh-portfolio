@@ -16,7 +16,7 @@ const Home = () => {
             I'm a Full Stack <span className="text-myColor">Developer</span>
           </p>
           <p className="max-w-md py-4 text-gray-500">
-            I have a good knowledge in java, angular, react.
+            I have a good knowledge in Java, Angular, React.
           </p>
           <div>
             <a
