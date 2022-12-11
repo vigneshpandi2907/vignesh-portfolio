@@ -33,7 +33,7 @@ const Education = (props) => {
               <p>7 Months -present</p>
               <p className="text-xl font-semibold">Full Stack Developer</p>
 
-              <p>Clarium Tech PVt Ltd, Chennai</p>
+              <p>Clarium Tech Pvt Ltd, Chennai</p>
             </div>
           </div>
         </div>
