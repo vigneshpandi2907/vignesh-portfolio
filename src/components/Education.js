@@ -24,7 +24,7 @@ const Education = (props) => {
             </div>
           </div>
         </div>
-        <hr class="my-4 h-px bg-gray-200 border-0 dark:bg-gray-700" />
+        <hr class="my-4 h-px  border-0 bg-gray-700" />
 
         <div>
           <p className="pt-5 text-2xl font-bold text-myColor">Working</p>
@@ -37,7 +37,7 @@ const Education = (props) => {
             </div>
           </div>
         </div>
-        {/* <hr class="my-4 h-px bg-gray-200 border-0 dark:bg-gray-700" /> */}
+        <hr class="my-4 h-px  border-0 bg-gray-700" />
       </div>
     </div>
   );
