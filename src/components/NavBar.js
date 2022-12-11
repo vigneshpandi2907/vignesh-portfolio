@@ -9,6 +9,7 @@ function NavBar(props) {
     { id: 3, link: "education" },
     { id: 4, link: "skills" },
     { id: 5, link: "hobbies" },
+    { id: 6, link: "contact" },
   ];
 
   return (

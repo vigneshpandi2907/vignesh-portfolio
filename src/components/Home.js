@@ -8,7 +8,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-black md:h-96">
       <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-4 pt-40 mx-auto md:flex-row ">
         <div className="flex flex-col justify-center w-3/4 h-auto">
-          <h1 class="flex font-bold text-white">
+          <h1 class="flex text-2xl font-bold text-white sm:text-5xl">
             Hello <span class="animate-wavingHand">👋🏻</span>,
           </h1>
 

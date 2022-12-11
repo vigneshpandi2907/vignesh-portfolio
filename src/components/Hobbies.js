@@ -18,12 +18,12 @@ const Hobbies = (props) => {
                   alt="cook"
                   className="w-32 bg-cover rounded-tl-xl rounded-bl-xl"
                 />
-                <p className="mt-10 ml-3 text-xl font-bold text-myColor sm:hidden">
+                <p className="mt-10 ml-3 text-2xl font-bold font-headline text-myColor sm:hidden">
                   Drawing
                 </p>
               </div>
               <div className="p-2 pl-5 ">
-                <p className="hidden text-xl font-bold text-myColor sm:block">
+                <p className="hidden text-2xl font-bold font-headline text-myColor sm:block">
                   Drawing
                 </p>
 
@@ -44,12 +44,12 @@ const Hobbies = (props) => {
                   alt="cook"
                   className="w-32 bg-cover rounded-tl-xl rounded-bl-xl"
                 />
-                <p className="mt-10 ml-3 text-xl font-bold text-myColor sm:hidden">
+                <p className="mt-10 ml-3 text-2xl font-bold font-headline text-myColor sm:hidden">
                   Cooking
                 </p>
               </div>
               <div className="p-2 pl-5">
-                <p className="hidden text-xl font-bold text-myColor sm:block">
+                <p className="hidden text-2xl font-bold font-headline text-myColor sm:block">
                   Cooking
                 </p>
 
