@@ -28,7 +28,7 @@ const Education = (props) => {
 
         <div>
           <p className="pt-5 text-2xl font-bold text-myColor">Working</p>
-          <div className="grid grid-cols-2 pl-2">
+          <div className="grid grid-cols-1 pl-2 sm:grid-cols-2">
             <div className="py-5">
               <p>7 Months -present</p>
               <p className="text-xl font-semibold">Full Stack Developer</p>
