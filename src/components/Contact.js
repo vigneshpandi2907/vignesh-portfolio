@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Contact = (props) => {
   return (
     <div name="contact" className=" bg-contactContent">
-      <p className="pt-3 pl-10 text-lg font-bold text-myColor">Contact</p>
+      <p className="pt-3 pl-10 text-xl font-bold text-myColor">Contact</p>
       <p className="pt-2 pl-10 text-xs text-gray-400">
         Submit the form below to get in touch with me
       </p>
