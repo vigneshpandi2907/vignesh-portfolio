@@ -4,7 +4,7 @@ module.exports = {
   mode: "jit",
   theme: {
     screens: {
-       xlsm: "442px",
+      xlsm: "442px",
       xsm: "520px",
       sm: "640px",
       // => @media (min-width: 640px) { ... }
@@ -29,6 +29,8 @@ module.exports = {
       backgroundColor: {
         myColor: "rgb(252,128,25)",
         skillColor: "rgb(41,41,41)",
+        contactContent: "rgb(14,17,24)",
+        form: "rgb(21,27,42)",
       },
 
       colors: {
