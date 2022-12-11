@@ -75,7 +75,7 @@ const Skills = (props) => {
       className="flex items-center justify-center w-full h-full pt-5 smallMedium:pt-2 bg-gradient-to-b from-slate-300 to-slate-800"
     >
       <div className="w-11/12">
-        <h2 className="ml-4 font-bold text-myColor">Skills</h2>
+        <h2 className="ml-2 text-2xl font-bold text-myColor">Skills</h2>
         <div className="grid justify-center w-full grid-cols-3 gap-6 py-8 mt-5 ml-5 xsm:grid-cols-4 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 sm:px-0">
           {skills.map((skill) => (
             <div

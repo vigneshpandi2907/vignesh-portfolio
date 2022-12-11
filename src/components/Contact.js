@@ -4,8 +4,8 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Contact = (props) => {
   return (
     <div name="contact" className=" bg-contactContent">
-      <p className="pt-3 pl-10 text-xl font-bold text-myColor">Contact</p>
-      <p className="pt-2 pl-10 text-xs text-gray-400">
+      <p className="pt-3 pl-10 text-2xl font-bold text-myColor">Contact</p>
+      <p className="pt-2 pl-10 text-sm text-gray-400">
         Submit the form below to get in touch with me
       </p>
       <div className="flex items-center justify-center">
@@ -13,7 +13,7 @@ const Contact = (props) => {
           <form
             action="https://getform.io/f/a18c12b6-0993-46cd-8cce-81067d1c0b4e"
             method="POST"
-            class="bg-form rounded-xl bg-opacity-70 px-8 pt-6 pb-6 mb-4"
+            class="bg-slate-800 rounded-xl bg-opacity-70 px-8 pt-6 pb-6 mb-4"
           >
             <div class="mb-4">
               <label

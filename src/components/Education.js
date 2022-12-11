@@ -5,12 +5,12 @@ const Education = (props) => {
   return (
     <div
       name="education"
-      className="flex items-center justify-center w-full h-full py-3 pt-96 xlsm:pt-60 xsm:pt-44 sm:pt-14 smallMedium:5 bg-gradient-to-t from-slate-300 to-white"
+      className="flex items-center justify-center w-full h-full py-3 pl-2 pt-96 xlsm:pt-60 xsm:pt-44 sm:pt-14 smallMedium:5 bg-gradient-to-t from-slate-300 to-white"
     >
       <div className="w-11/12">
         <div>
           <p className="pt-10 text-2xl font-bold text-myColor">Education</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2">
+          <div className="grid grid-cols-1 pl-2 sm:grid-cols-2">
             <div className="py-3">
               <p>2018</p>
               <p className="text-xl font-semibold">HSC</p>
@@ -28,7 +28,7 @@ const Education = (props) => {
 
         <div>
           <p className="pt-5 text-2xl font-bold text-myColor">Working</p>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 pl-2">
             <div className="py-5">
               <p>7 Months -present</p>
               <p className="text-xl font-semibold">Full Stack Developer</p>
