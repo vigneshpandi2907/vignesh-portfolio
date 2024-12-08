@@ -35,12 +35,12 @@ function NavBar(props) {
               </li>
             ))}
           </ul>
-          <div
+          {/* <div
             onClick={() => setNav(!nav)}
             className="z-10 pr-4 text-gray-500 cursor-pointer md:hidden"
           >
             {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
-          </div>
+          </div> */}
           {nav && (
             <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen text-gray-500 bg-gradient-to-b from-black to-gray-800">
               {links.map(({ id, link }) => (
