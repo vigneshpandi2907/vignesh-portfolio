@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 function NavBar(props) {
   const [nav, setNav] = useState(false);
