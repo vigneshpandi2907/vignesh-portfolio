@@ -28,19 +28,18 @@ const Menu = () => {
                 {links.map(({ id, link,content,logo }) => (
                     <li key={id}
                     className={`list ${firstActive === id ? "active" : ""}`}>
-                    <Link
+                        <Link
                             to={link}
                             spy={true}
                             smooth={true}
                             offset={-90}
-                            duration={500}
+                            duration={500} 
+                            className="content"
                         >
-                            <a >
-                                <span className="icon">
-                                    <ion-icon name={logo}></ion-icon>
-                                </span>
-                                <span className="text">{content}</span>
-                            </a>
+                            <span className="icon">
+                                <ion-icon name={logo}></ion-icon>
+                            </span>
+                            <span className="text">{content}</span>
                         </Link>
                     </li>
                 ))}
