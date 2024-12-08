@@ -35,7 +35,7 @@ const Menu = () => {
                             offset={-90}
                             duration={500}
                         >
-                            <a href="#">
+                            <a >
                                 <span className="icon">
                                     <ion-icon name={logo}></ion-icon>
                                 </span>
